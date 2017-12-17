@@ -34,20 +34,28 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
-
 <h2>{{page.title}}</h2>
+
+{{"/services" | absolute_url}}
+
 
   <div class="row">
   <div class="col-lg-8">
     {{ content }}
   </div>
-  <div class="col-lg-4">
-    <ul>
-    <li><a href="mailto:hollyWarne@gmail.com">email</a></li>
-    <li><a href="mailto:hollyWarne@gmail.com">facebook</a></li>
-    <li><a href="mailto:hollyWarne@gmail.com">twitter</a></li>
-    </ul>
+  <div class="col-lg-2"></div>
+  <div class="col-lg-2">
+  Contact <br>
+   <a href="mailto:hollyWarne@gmail.com">
+      <img src="{{ "/assets/email.png" | absolute_url }}" style="width:40px">
+    </a>
+    <a href="https://faceook.com/hollysMassagePage">
+      <img src="{{ "/assets/facebook.png" | absolute_url }}" style="width:40px">
+    </a>
+    <a href="https://twitter.com/twitter">
+    <img src="{{ "/assets/twitter.png" | absolute_url }}" style="width:40px">
+    </a>
+
   </div>
   </body>
 
