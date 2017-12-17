@@ -2,12 +2,8 @@
 <html lang="en">
   <head>
     <title>{{ page.title }}</title>
-    
     <link rel="stylesheet" type="text/css" href="{{"styles/site.css" | absolute_url}}">
-  
   </head>
-
-
   <body>
   
 
@@ -37,22 +33,26 @@
 <h2>{{page.title}}</h2>
 
   <div class="row">
-  <div class="col-lg-8">
+  <div class="col-lg-10">
     {{ content }}
   </div>
-  <div class="col-lg-2"></div>
   <div class="col-lg-2">
-  Contact <br>
-   <a href="mailto:hollyWarne@gmail.com">
-      <img src="{{ "/assets/email.png" | absolute_url }}" style="width:40px">
-    </a>
-    <a href="https://faceook.com/hollysMassagePage">
-      <img src="{{ "/assets/facebook.png" | absolute_url }}" style="width:40px">
-    </a>
-    <a href="https://twitter.com/twitter">
-    <img src="{{ "/assets/twitter.png" | absolute_url }}" style="width:40px">
-    </a>
 
+    <div class="contact-means">
+      <a href="mailto:hollyWarne@gmail.com">
+        <img class="contact-logo" src="{{ "/assets/email.png" | absolute_url }}">
+      </a>
+    </div>
+    <div class="contact-means">
+      <a href="https://faceook.com/hollysMassagePage">
+        <img class="contact-logo"  src="{{ "/assets/facebook.png" | absolute_url }}">
+      </a>
+    </div>
+    <div class="contact-means">
+      <a href="https://twitter.com/twitter">
+        <img class="contact-logo" src="{{ "/assets/twitter.png" | absolute_url }}">
+      </a>
+    </div>
   </div>
   </body>
 
