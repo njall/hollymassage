@@ -1,0 +1,3 @@
+name: Holly Warne Sports Massage
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
