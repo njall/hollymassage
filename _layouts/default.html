@@ -3,7 +3,7 @@
   <head>
     <title>{{ page.title }}</title>
     
-    <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <link rel="stylesheet" type="text/css" href="{{site.root_url}}/styles/site.css">
   
   </head>
 
@@ -24,11 +24,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/prices">Prices</a></li>
-        <li><a href="/testimonials">Testimonials</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="{{ site.root_url}}/">Home</a></li>
+        <li><a href="{{ site.root_url}}/services">Services</a></li>
+        <li><a href="{{ site.root_url}}/prices">Prices</a></li>
+        <li><a href="{{ site.root_url}}/testimonials">Testimonials</a></li>
+        <li><a href="{{ site.root_url}}/about">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
